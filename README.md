@@ -1,10 +1,10 @@
 # HomeTest
-To Open Cypress Run: npm run cypress:open
+Dear reviewer
 
-First of all want to say thank you for this opportunity. 
+One point I would like to make is that on the 4th user story you asked, I decided to validate just the visibility of the tooltip. I didn't validate the percentages just because it wouldn't be flexible as you said in your notes. (Any percentage change would have broke the tests since I can't validate though the DB).
 
-For the last step where I was asked to verify tooltip with the text for each state or group of states,
-I decided to go with a non-changing part of the text which is "% of Students".
-I could do the same method with 2 parameters and it would concatenate the numbers into 'contains'. 
-But then as you said if numbers would change I would have to go and change them manually.
-Also, I want to add that I have only one spec file because I'm not working to deep with the pages. Otherwise, I think every page should be under its own spec file.
+In order to run the test just CD into the "bla bla" folder and just run "npm run cypress:open" on your terminal
+
+Thank you for the opportunity 
+
+Denys
